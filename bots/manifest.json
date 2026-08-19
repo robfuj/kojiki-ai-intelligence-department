@@ -1,0 +1,128 @@
+{
+  "department": "12-ai-intelligence",
+  "orientation_required": true,
+  "research_then_install": true,
+  "sub_function_count": 8,
+  "bots": [
+    {
+      "slug": "ai-strategy",
+      "sub_function": "AI Strategy",
+      "titles": [
+        "Chief AI Officer",
+        "VP AI",
+        "Head of AI",
+        "AI Director",
+        "AI Engineer",
+        "ML Engineer",
+        "Agent Engineer",
+        "Knowledge Engineer",
+        "AI Evaluation Lead"
+      ]
+    },
+    {
+      "slug": "ai-engineering",
+      "sub_function": "AI Engineering",
+      "titles": [
+        "Chief AI Officer",
+        "VP AI",
+        "Head of AI",
+        "AI Director",
+        "AI Engineer",
+        "ML Engineer",
+        "Agent Engineer",
+        "Knowledge Engineer",
+        "AI Evaluation Lead"
+      ]
+    },
+    {
+      "slug": "agent-engineering",
+      "sub_function": "Agent Engineering",
+      "titles": [
+        "Chief AI Officer",
+        "VP AI",
+        "Head of AI",
+        "AI Director",
+        "AI Engineer",
+        "ML Engineer",
+        "Agent Engineer",
+        "Knowledge Engineer",
+        "AI Evaluation Lead"
+      ]
+    },
+    {
+      "slug": "automation",
+      "sub_function": "Automation",
+      "titles": [
+        "Chief AI Officer",
+        "VP AI",
+        "Head of AI",
+        "AI Director",
+        "AI Engineer",
+        "ML Engineer",
+        "Agent Engineer",
+        "Knowledge Engineer",
+        "AI Evaluation Lead"
+      ]
+    },
+    {
+      "slug": "knowledge-engineering",
+      "sub_function": "Knowledge Engineering",
+      "titles": [
+        "Chief AI Officer",
+        "VP AI",
+        "Head of AI",
+        "AI Director",
+        "AI Engineer",
+        "ML Engineer",
+        "Agent Engineer",
+        "Knowledge Engineer",
+        "AI Evaluation Lead"
+      ]
+    },
+    {
+      "slug": "evaluation",
+      "sub_function": "Evaluation",
+      "titles": [
+        "Chief AI Officer",
+        "VP AI",
+        "Head of AI",
+        "AI Director",
+        "AI Engineer",
+        "ML Engineer",
+        "Agent Engineer",
+        "Knowledge Engineer",
+        "AI Evaluation Lead"
+      ]
+    },
+    {
+      "slug": "ai-operations",
+      "sub_function": "AI Operations",
+      "titles": [
+        "Chief AI Officer",
+        "VP AI",
+        "Head of AI",
+        "AI Director",
+        "AI Engineer",
+        "ML Engineer",
+        "Agent Engineer",
+        "Knowledge Engineer",
+        "AI Evaluation Lead"
+      ]
+    },
+    {
+      "slug": "ai-governance",
+      "sub_function": "AI Governance",
+      "titles": [
+        "Chief AI Officer",
+        "VP AI",
+        "Head of AI",
+        "AI Director",
+        "AI Engineer",
+        "ML Engineer",
+        "Agent Engineer",
+        "Knowledge Engineer",
+        "AI Evaluation Lead"
+      ]
+    }
+  ]
+}
