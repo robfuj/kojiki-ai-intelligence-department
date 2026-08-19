@@ -1,38 +1,38 @@
 ```mermaid
 flowchart TD
-    n0["CURRENT DECISION"]
-    n1["HUMAN PROCESS"]
-    n2["DECISION COMPLEXITY"]
-    n3["INPUTS"]
-    n4["DATA AVAILABILITY"]
-    n5["AUTOMATION POTENTIAL"]
-    n6["AGENT DESIGN"]
-    n7["HUMAN CONTROL"]
-    n8["EXECUTION"]
-    n9["VERIFICATION"]
-    n10["OUTCOME"]
-    n11["AGENT LEARNING"]
-    n0 --> n1
-    n1 --> n2
-    n2 --> n3
-    n3 --> n4
-    n4 --> n5
-    n5 --> n6
-    n6 --> n7
-    n7 --> n8
-    n8 --> n9
-    n9 --> n10
-    n10 --> n11
-    n0 -->|learning| n0
+ n0["CURRENT DECISION"]
+ n1["HUMAN PROCESS"]
+ n2["DECISION COMPLEXITY"]
+ n3["INPUTS"]
+ n4["DATA AVAILABILITY"]
+ n5["AUTOMATION POTENTIAL"]
+ n6["AGENT DESIGN"]
+ n7["HUMAN CONTROL"]
+ n8["EXECUTION"]
+ n9["VERIFICATION"]
+ n10["OUTCOME"]
+ n11["AGENT LEARNING"]
+ n0 --> n1
+ n1 --> n2
+ n2 --> n3
+ n3 --> n4
+ n4 --> n5
+ n5 --> n6
+ n6 --> n7
+ n7 --> n8
+ n8 --> n9
+ n9 --> n10
+ n10 --> n11
+ n0 -->|learning| n0
 
 stateDiagram-v2
-    [*] --> ASSESSED
-    ASSESSED --> DESIGNED
-    DESIGNED --> CONTROLLED
-    CONTROLLED --> EXECUTING
-    EXECUTING --> VERIFYING
-    VERIFYING --> MONITORING
-    MONITORING --> IMPROVING
-    IMPROVING --> REJECTED
-    REJECTED --> [*]
+ [*] --> ASSESSED
+ ASSESSED --> DESIGNED
+ DESIGNED --> CONTROLLED
+ CONTROLLED --> EXECUTING
+ EXECUTING --> VERIFYING
+ VERIFYING --> MONITORING
+ MONITORING --> IMPROVING
+ IMPROVING --> REJECTED
+ REJECTED --> [*]
 ```
