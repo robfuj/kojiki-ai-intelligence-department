@@ -1,0 +1,46 @@
+{
+  "decision_object": {
+    "decision_id": "AI-2026-021",
+    "decision_name": "Auto-triage support tickets",
+    "owning_function": "AI / Intelligence",
+    "decision_owner_role": "Agent Engineer",
+    "trigger_condition": "Manual tagging 15 min/ticket; error-prone",
+    "current_state": "Humans tag every ticket",
+    "required_inputs": [
+      "historical tags",
+      "ticket text",
+      "routing rules"
+    ],
+    "evidence_threshold": "80% auto-routed, < 5% misroute",
+    "available_options": [
+      "Full auto",
+      "Assist + threshold escalate",
+      "Keep human",
+      "Reject"
+    ],
+    "decision_criteria": "High precision, clear human boundary",
+    "constraints": "Never auto-close without review",
+    "risk_level": "medium",
+    "delegation_level": "Automate",
+    "escalation_conditions": "Confidence < 0.8",
+    "expected_outcome": "80% auto, <5% misroute",
+    "verification_method": "2-week shadow vs human",
+    "actual_outcome": "82% auto, 4% misroute",
+    "learning_extracted": "0.8 confidence is sweet spot for this tag space",
+    "rule_version": "AI-RULE-003",
+    "last_reviewed": "2026-08-18"
+  },
+  "learning_ledger": {
+    "case": "Manual ticket triage",
+    "decision": "Automate with 0.8 threshold",
+    "assumption": "Historical tags are consistent",
+    "action": "Ship agent at 0.8; weekly human review",
+    "expected_result": "80% auto, <5% misroute",
+    "actual_result": "82% auto, 4% misroute",
+    "variance": "Beat threshold",
+    "cause": "0.8 calibration fits tag space",
+    "learning": "Calibrated confidence threshold is the control",
+    "rule_update": "Any triage agent must escalate below calibrated confidence threshold"
+  },
+  "orientation_required": true
+}

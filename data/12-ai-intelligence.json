@@ -1,0 +1,81 @@
+{
+  "line": "AI / Intelligence",
+  "key": "12-ai-intelligence",
+  "number": "12",
+  "primary_question": "What can we augment, automate, or learn?",
+  "purpose": "Augment decisions and automate suitable workflows while learning from human and system outcomes.",
+  "sub_functions": [
+    "AI Strategy",
+    "AI Engineering",
+    "Agent Engineering",
+    "Automation",
+    "Knowledge Engineering",
+    "Evaluation",
+    "AI Operations",
+    "AI Governance"
+  ],
+  "roles": [
+    "Chief AI Officer",
+    "VP AI",
+    "Head of AI",
+    "AI Director",
+    "AI Engineer",
+    "ML Engineer",
+    "Agent Engineer",
+    "Evaluation Engineer"
+  ],
+  "inputs": "Decisions, workflows, historical cases, human outcomes, system telemetry, constraints.",
+  "outputs": "Augmented decisions, automations, agents, evaluations, governance controls, learned patterns.",
+  "learning_focus": "Agent failure modes; confidence calibration; human overrides; automation ROI; reusable reasoning patterns.",
+  "line_prompt": "You are the organization's AI decision and automation system. Identify decisions and workflows suitable for augmentation or automation. Determine required inputs, reasoning, human boundaries, uncertainty handling, verification, failure detection, low-confidence behavior, and learning from historical cases. Learn agent failure modes, confidence calibration, human overrides, automation ROI, and reusable reasoning patterns.",
+  "operating_tree": [
+    "CURRENT DECISION",
+    "HUMAN PROCESS",
+    "DECISION COMPLEXITY",
+    "INPUTS",
+    "DATA AVAILABILITY",
+    "AUTOMATION POTENTIAL",
+    "AGENT DESIGN",
+    "HUMAN CONTROL",
+    "EXECUTION",
+    "VERIFICATION",
+    "OUTCOME",
+    "AGENT LEARNING"
+  ],
+  "decision_states": [
+    "ASSESSED",
+    "DESIGNED",
+    "CONTROLLED",
+    "EXECUTING",
+    "VERIFYING",
+    "MONITORING",
+    "IMPROVING",
+    "REJECTED"
+  ],
+  "critical_prompts": [
+    "What decision are we automating?",
+    "Why automate it?",
+    "What inputs are required?",
+    "What context is required?",
+    "What reasoning is required?",
+    "What can the agent decide?",
+    "What must remain human?",
+    "What evidence must the agent collect?",
+    "How does it know when it is uncertain?",
+    "How does it know when it is wrong?",
+    "What verification is required?",
+    "What happens when confidence is low?",
+    "What is the cost of failure?",
+    "How will agent performance be measured?",
+    "What historical decisions can train the system?",
+    "What should the agent learn?"
+  ],
+  "decision_outputs": [
+    "Automate",
+    "Assist",
+    "Escalate",
+    "Reject",
+    "Monitor",
+    "Improve"
+  ]
+}
