@@ -28,7 +28,7 @@
     "actual_outcome": "82% auto, 4% misroute",
     "learning_extracted": "0.8 confidence is sweet spot for this tag space",
     "rule_version": "AI-RULE-003",
-    "last_reviewed": "2026-08-18"
+    "last_reviewed": "2026-08-19"
   },
   "learning_ledger": {
     "case": "Manual ticket triage",
